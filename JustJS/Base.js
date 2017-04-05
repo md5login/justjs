@@ -18,7 +18,7 @@ export default class Base {
         if (!tbel) return;
         // if no event given - clear all events
         if (!event) {
-            Object.keys(this._listeners).forEach(key => delete this._listeners[key]);
+            delete tbel[event];
             return;
         }
         if (!tbel[event]) return;
