@@ -13,7 +13,7 @@ JS MV framework that doesn't need environment setup. Plug'n'Play. Written in ES6
 
 ##### <a name="Base.on">Syntax:</a> `.on(event, handler[, context])`
 
-Add event listener to `Base` instance. These are custom event only.
+Add event listener to `Base` instance.
 
 <b>arguments:</b>
 
