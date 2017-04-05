@@ -3,7 +3,7 @@ JS MV framework that doesn't need environment setup. Plug'n'Play. Written in ES6
 
 ## Classes
 
-### [`Base`](/md5login/justjs/tree/master/JustJS/Base.js)
+### [`Base`](/JustJS/Base.js)
 
 #### Methods
 * [.on()](#Base.on)
