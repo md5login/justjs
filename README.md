@@ -78,7 +78,6 @@ Acts just like `.on(...args)`, but removes itself after first execution
 
 ###### example
 ```javascript
-// remove console.log from "error" listeners under any context
 baseInstance.once("error", console.log, console);
 ```
 ---
