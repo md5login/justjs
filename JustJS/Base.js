@@ -27,7 +27,7 @@ export default class Base {
             delete tbel[event];
             return;
         }
-        // filter event this._listeners by != handler, context
+        // filter events by != handler, context
         tbel[event] = tbel[event].filter(hc => {
             if (context) {
                 return hc.handler !== handler || hc.context !== context;
