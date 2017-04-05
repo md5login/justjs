@@ -32,7 +32,7 @@ let baseInstance = new Base();
 baseInstance.on("error", console.log, console);
 
 // Notice! Anonymous functions can be removed with the removal of the whole event only
-baseInstance.on("info", (timestamp, msg) => { logger.log(`${timestamp}: ${msg}`) } );
+baseInstance.on("info", (timestamp, msg) => {logger.log(`${timestamp}: ${msg}`) } );
 
 let setHTML = function(html) {
     this.innerHTML = html;
