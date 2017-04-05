@@ -1,9 +1,9 @@
 # JUSTJS
-JS MV framework that doesn't need environment setup. Plug'n'Play. Written in ES6 stadnard.
+Plug'n'Play ES6 MV framework that doesn't need environment setup. It allows you to build scalable and strong data-responsive applications with "cutting edge" technologies. As well, the framework helps you to synchronize your data with your back-end easily.
 
-## Classes
+## Classes: [`Base`](#Class.Base), [`Model`](#Class.Model), [`Collection`](#Class.Collection), [`View`](#Class.View)
 
-### [`Base`](/JustJS/Base.js)
+### <a name="Class.Base">[`Base`](/JustJS/Base.js)</a>
 
 #### Methods
 * [.on()](#Base.on)
@@ -104,3 +104,12 @@ baseInstance.fire("html", "<div>Hello, world!</div>");
 baseInstance.fire("not registered event");
 ```
 ---
+
+
+### <a name="Class.Model">[`Model`](/JustJS/Model.js)</a>
+
+
+### <a name="Class.Collection">[`Collection`](/JustJS/Collection.js)</a>
+
+
+### <a name="Class.View">[`View`](/JustJS/View.js)</a>
