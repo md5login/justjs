@@ -32,16 +32,16 @@ let baseInstance = new Base();
 baseInstance.on("error", console.log, console);
 
 // Notice! Anonymous functions can be removed with the removal of the whole event only
-baseInstance.on("info", (timestamp, msg) => {logger.log(`${timestamp}: ${msg}`) } );
+baseInstance.on("info", (timestamp, msg) => {logger.log(`${timestamp}: ${msg}`)});
 
 let setHTML = function(html) {
     this.innerHTML = html;
 };
-let element1 = document.querySelector( "#id1" );
-let element2 = document.querySelector( "#id2" );
+let element1 = document.querySelector("#id1");
+let element2 = document.querySelector("#id2");
 // Same handler with different contexts
-baseInstance.on("html", setHTML, element1 );
-baseInstance.on("html", setHTML, element2 );
+baseInstance.on("html", setHTML, element1);
+baseInstance.on("html", setHTML, element2);
 ```
 ---
 ##### <a name="Base.off">Syntax:</a> `.off([event[, handler[, context]]])`
